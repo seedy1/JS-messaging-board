@@ -1,0 +1,15 @@
+.title{
+    text-align: center;
+}
+
+.loading{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
