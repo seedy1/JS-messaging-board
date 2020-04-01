@@ -1,5 +1,12 @@
+body{
+    background: grey;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+}
 .title{
     text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .loading{
@@ -12,4 +19,26 @@
 img{
     width: 100px;
     height: 100px;
+}
+
+.frm{
+    padding: 7px;
+    background-color: #ffffff;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mews{
+    padding: 7px;
+    background-color: #ffffff;
+    max-width: 700px;
+    max-height: 350px;
+    overflow: scroll;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mews h3{
+    text-transform: capitalize;
 }

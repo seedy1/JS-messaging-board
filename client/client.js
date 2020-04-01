@@ -3,7 +3,7 @@ const form = document.querySelector('form');
 const loadingElement = document.querySelector('.loading');
 const mewsElement = document.querySelector('.mews');
 
-loadingElement.style.display = '';
+loadingElement.style.display = 'none';
 
 const API_URL = "http://localhost:5000/mews";
 
